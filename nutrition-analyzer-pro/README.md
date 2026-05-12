@@ -3,15 +3,17 @@ This is a Python desktop application that uses Google's Gemini AI to perform a d
 
 ## 🧠 AI Pipeline Architecture
 
-User Uploads Image
-        ↓
+```
+User Uploads Image<br>
+        ↓<br>
 Tkinter Desktop App
-        ↓
-Gemini AI Vision Model
-        ↓
-Nutrition Report Generated
-        ↓
-Displayed to User & Logged Locally
+        ↓<br>
+Gemini AI Vision Model<br>
+        ↓<br>
+Nutrition Report Generated<br>
+        ↓<br>
+Displayed to User & Logged Locally<br>
+```
 
 ## Features
 -   **Image-Based Analysis:** Simply upload a photo of your meal to get started.
@@ -61,12 +63,10 @@ Navigate to the official Google AI Studio website[https://aistudio.google.com/].
 
 #### ***Important: Treat this key like a password. Do not share it publicly or commit it to version control systems like GitHub.
 
-
 #### **5. Set Up Your API Key
 1. Create a file named .env in the main project folder.
 2. Inside this file, add your Google Gemini API key like this:
 GEMINI_API_KEY="YOUR_API_KEY_HERE"
-
 
 #### **6. How to Run the Application
 With your environment activated and the dependencies installed, run the following command in your terminal:
@@ -80,21 +80,19 @@ python app.py
 
 #### **7. Project Structure
 
-nutrition-analyzer/
-│
-├── test_imgs/          <- Optional: Contains some images for testing. Also Ignored by Git
-├── .env                <- Ignored by Git
-├── venv/               <- Ignored by Git
-├── nutrition_log_pro.csv   <- Ignored by Git
-│
-├── .gitignore
-├── README.md
-│
-├── app.py
-├── test_key.py
-└── requirements.txt
-
-
+nutrition-analyzer/<br>
+│<br>
+├── test_imgs/          <- Optional: Contains some images for testing. Also Ignored by Git<br>
+├── .env                <- Ignored by Git<br>
+├── venv/               <- Ignored by Git<br>
+├── nutrition_log_pro.csv   <- Ignored by Git<br>
+│<br>
+├── .gitignore<br>
+├── README.md<br>
+│<br>
+├── app.py<br>
+├── test_key.py<br>
+└── requirements.txt<br>
 
 ## Summary
 This project is a desktop application built with Python and Tkinter that leverages **Google's Gemini AI** to provide a detailed nutritional analysis from a single image of food.

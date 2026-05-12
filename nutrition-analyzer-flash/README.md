@@ -3,19 +3,21 @@ This is a Python desktop application that uses Google's Gemini AI and the Clarif
 
 ## 🧠 AI Pipeline Architecture
 
-User Uploads Image
-        ↓
-Tkinter Desktop App
-        ↓
-Clarifai Food Detection API
-        ↓
-Food Name Extracted
-        ↓
-Gemini AI Analysis
-        ↓
-Nutrition Report Generated
-        ↓
-Displayed to User & Logged Locally
+```
+User Uploads Image<br>
+        ↓<br>
+Tkinter Desktop App<br>
+        ↓<br>
+Clarifai Food Detection API<br>
+        ↓<br>
+Food Name Extracted<br>
+        ↓<br>
+Gemini AI Analysis<br>
+        ↓<br>
+Nutrition Report Generated<br>
+        ↓<br>
+Displayed to User & Logged Locally<br>
+```
 
 ## API Details
 This project seamlessly links two advanced AI APIs to generate its reports:
@@ -86,21 +88,21 @@ python app.py
 
 #### **7. Project Structure
 
-nutrition-analyzer-flash/
-│
-├── test_imgs/          <- Optional: Contains some images for testing. Also Ignored by Git
-├── .env                <- Ignored by Git
-├── venv/               <- Ignored by Git
-├── nutrition_log_flash.csv   <- Ignored by Git
-│
-├── .gitignore
-├── README.md
-│
-├── app.py
-├── ai_pipelines.py
-├── config.py
-├── test_key.py
-└── requirements.txt
+nutrition-analyzer-flash/<br>
+│<br>
+├── test_imgs/          <- Optional: Contains some images for testing. Also Ignored by Git<br>
+├── .env                <- Ignored by Git<br>
+├── venv/               <- Ignored by Git<br>
+├── nutrition_log_flash.csv   <- Ignored by Git<br>
+│<br>
+├── .gitignore<br>
+├── README.md<br>
+│<br>
+├── app.py<br>
+├── ai_pipelines.py<br>
+├── config.py<br>
+├── test_key.py<br>
+└── requirements.txt<br>
 
 
 ## Summary

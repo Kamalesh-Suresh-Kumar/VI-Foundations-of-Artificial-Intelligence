@@ -1,0 +1,5 @@
+Pillow
+pandas
+python-dotenv
+google-generativeai
+clarifai-grpc

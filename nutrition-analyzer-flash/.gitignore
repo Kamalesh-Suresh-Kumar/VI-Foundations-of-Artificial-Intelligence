@@ -1,0 +1,14 @@
+# Ignore the Python virtual environment folder
+/venv
+
+# Ignore the file containing secret API keys
+.env
+
+# Ignore all CSV files (like nutrition_log.csv)
+*.csv
+
+# Ignore Python cache files
+__pycache__/
+
+# Ignore the folder with test images
+test_imgs/

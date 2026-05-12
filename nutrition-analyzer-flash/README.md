@@ -4,19 +4,19 @@ This is a Python desktop application that uses Google's Gemini AI and the Clarif
 ## 🧠 AI Pipeline Architecture
 
 ```
-User Uploads Image<br>
-        ↓<br>
-Tkinter Desktop App<br>
-        ↓<br>
-Clarifai Food Detection API<br>
-        ↓<br>
-Food Name Extracted<br>
-        ↓<br>
-Gemini AI Analysis<br>
-        ↓<br>
-Nutrition Report Generated<br>
-        ↓<br>
-Displayed to User & Logged Locally<br>
+User Uploads Image
+        ↓
+Tkinter Desktop App
+        ↓
+Clarifai Food Detection API
+        ↓
+Food Name Extracted
+        ↓
+Gemini AI Analysis
+        ↓
+Nutrition Report Generated
+        ↓
+Displayed to User & Logged Locally
 ```
 
 ## API Details

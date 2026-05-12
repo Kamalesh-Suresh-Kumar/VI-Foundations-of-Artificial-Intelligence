@@ -4,15 +4,15 @@ This is a Python desktop application that uses Google's Gemini AI to perform a d
 ## 🧠 AI Pipeline Architecture
 
 ```
-User Uploads Image<br>
-        ↓<br>
+User Uploads Image
+        ↓
 Tkinter Desktop App
-        ↓<br>
-Gemini AI Vision Model<br>
-        ↓<br>
-Nutrition Report Generated<br>
-        ↓<br>
-Displayed to User & Logged Locally<br>
+        ↓
+Gemini AI Vision Model
+        ↓
+Nutrition Report Generated
+        ↓
+Displayed to User & Logged Locally
 ```
 
 ## Features

@@ -11,7 +11,7 @@ This repository is logically divided into project documentation, system diagrams
 - **`CS23533 – FOAI Review -- PPT.pptx` & `.pdf`**: Presentation slides created for the academic project review, outlining the objectives, methodology, and outcomes of the AI Nutrition Analyzer.
 
 ### 2. Architectural Diagrams
-- **`foai.drawio.png` & `foai ot.png`**: Visual representations of the project's data flow and architecture, illustrating how user inputs are processed by different AI models to produce the final nutritional report.
+- **`architecture_diagram.png` & `output.png`**: Visual representations of the project's data flow and architecture, illustrating how user inputs are processed by different AI models to produce the final nutritional report.
 
 ### 3. Code Implementations
 The project features two distinct approaches to solving the core problem, housed in separate subdirectories:
@@ -78,3 +78,7 @@ To run either of the applications, navigate to their respective directories and 
    ```bash
    python app.py
    ```
+### Author:
+Kamalesh S P<br>
+230701138<br>
+REC
